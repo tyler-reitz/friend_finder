@@ -8,9 +8,9 @@ describe('tally', function () {
   
   it('it should return an object of type User', function () {
     assert.deepStrictEqual({
-      name: "test5",
+      name: "Bad Luck Brian",
       photo: "http://media.veryfunnypics.eu/2013/08/bad-luck-brian-001.jpg",
-      scores: [2, 2, 2, 2, 2]
+      scores: [2, 3, 2, 5, 1]
     }, tally(db, usr))
   })
   
