@@ -1,0 +1,21 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Tyler Reitz <tdreitz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
+  }
+}
