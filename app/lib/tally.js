@@ -2,8 +2,7 @@ const diffScores = require('../lib/diffScores')
 
 module.exports = (possibleMatches, usersAnswers) => {
   const uScores = usersAnswers.scores
-  let match,
-      diff  
+  let match, diff  
   
   possibleMatches.forEach(isMatch => {
     const mScores = isMatch.scores
